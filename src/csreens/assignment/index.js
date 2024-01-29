@@ -3,8 +3,8 @@ import React from 'react'
 import { styles } from './style'
 import Login from './login';
 import Register from './register';
-import {NavigationContainer, StackActions} from '@react-navigation/native';
-import {createNativeStackNavigator} from '@react-navigation/native-stack';
+// import {NavigationContainer, StackActions} from '@react-navigation/native';
+// import {createNativeStackNavigator} from '@react-navigation/native-stack';
 import Home from './home';
 
 const MyAssignment_1 = () => {
