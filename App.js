@@ -9,12 +9,17 @@ import Home from './src/csreens/assignment/home'
 import Lab4 from './src/csreens/lab4'
 import Lab5 from './src/csreens/lab5'
 import Lab5_3 from './src/csreens/lab5_3'
+import Lab7 from './src/csreens/lab7'
+import Lab6 from './src/csreens/lab6'
 const App = () => {
   return (
-    // <MyAssignment_1/>
+    //  <MyAssignment_1/>
     // <Lab5></Lab5>
-    <Lab5_3></Lab5_3>
+    //  <Lab5_3></Lab5_3>
+    // <Lab4></Lab4>
+    // <Lab7></Lab7>
+    <Lab6></Lab6>
   )
 }
 
-export default App
+export default App;

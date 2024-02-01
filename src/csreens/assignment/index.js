@@ -12,14 +12,14 @@ const MyAssignment_1 = () => {
   return (
     <NavigationContainer>
       {/* Rest of your app code */}
-      <Stack.Navigator initialRouteName="Login" screenOptions={{headerShown:false}}>
+      <Stack.Navigator initialRouteName="Login" screenOptions={{headerShown:true}}>
         <Stack.Screen name="Login " component={Login}/>
         <Stack.Screen name="Register" component={Register}/>
         <Stack.Screen name="Home" component={Home}/>
       </Stack.Navigator>
 
     </NavigationContainer>
-  )
-}
+  );
+};
 
-export default MyAssignment_1
+export default MyAssignment_1;
